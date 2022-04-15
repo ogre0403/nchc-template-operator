@@ -6,4 +6,14 @@ plugins:
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: template-operator
 repo: github.com/ogre0403/nchc-template-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: nchc.org
+  group: template
+  kind: Template
+  path: github.com/ogre0403/nchc-template-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
