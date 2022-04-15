@@ -1,0 +1,9 @@
+domain: nchc.org
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: template-operator
+repo: github.com/ogre0403/nchc-template-operator
+version: "3"
